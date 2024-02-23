@@ -167,6 +167,8 @@
 
 .card__image {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Режими смешивания для картинок */

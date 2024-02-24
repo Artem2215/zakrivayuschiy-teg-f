@@ -1,4 +1,37 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
+  --pageBackgrColor: #fff;
+  --pageBackgrGradient: 
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px), 
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px), 
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 
+  --mainFont: 'Inter-Variable';
+  --cubicFont: 'Press Start 2P';
+  --mainFontSize: 18px;
+  --buttonsFontSize: 14px;
+  --subtitleWieght: 700;
+  --textWeight: 400;
+
+  --labelTextShadow: 
+    1px 1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    -1px -1px 0 #fff;
+
+  --mainTextColor: #000;
+  --headerBackgrColor: #fff;
+  --borderColor: #000;
+  --textBackgrColor: #fff;
+  --buttonBackgrColor: #fff;
+  --boxShadowColor: #000;
+  --buttonColor: #fff;
+  --floppyColor: #fff;
+  --buttonBefore: #000;
+
+  --heartContourColor: #000;
+  --heartContourMainBodyCoreColor: #000;
+  --heartMainBodyAndCoreColorHover: #000;
+  --heartContourColorActive: red;
+  --heartMainBodyAndSparksColor: red;
 }

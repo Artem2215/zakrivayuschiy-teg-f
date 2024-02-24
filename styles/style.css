@@ -282,7 +282,7 @@
   transition: width 0.5s ease-in-out;
 }
 
-.card__like-button:hover::before{
+.card__like-button:hover::before {
   width: 100%;
 }
 
@@ -404,24 +404,24 @@
   transition: fill 0.3s ease;
 }
 
-.like-icon.is-liked.core{
+.like-icon.is-liked.core {
   fill: red;
   transition: fill 0.3s ease;
 }
 
-.like-icon.is-liked.main-body{
+.like-icon.is-liked.main-body {
   fill: red;
   transition: fill 0.3s ease;
   transition-delay: 0.05s;
 }
 
-.like-icon.is-liked.contour{
+.like-icon.is-liked.contour {
   fill: var(--heartContourColorActive);
   transition: fill 0.3s ease;
   transition-delay: 0.06s;
 }
 
-.like-icon:not(.is-liked).contour{
+.like-icon:not(.is-liked).contour {
   fill: var(--heartContourMainBodyCoreColor);
   transition: fill 0.1s ease;
 }
@@ -491,7 +491,7 @@
   transition: width 0.5s ease-in-out;
 }
 
-.dialog__button:hover::before{
+.dialog__button:hover::before {
   width: 100%;
 }
 

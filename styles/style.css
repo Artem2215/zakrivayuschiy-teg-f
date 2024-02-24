@@ -11,7 +11,6 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
-
 */
 
 .page {
@@ -208,7 +207,7 @@
   line-height: 14px;
   text-transform: uppercase;
   text-shadow: var(--labelTextShadow);
-  mix-blend-mode: hard-light;  
+  mix-blend-mode: hard-light;
 }
 
 @supports((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
@@ -405,24 +404,24 @@
   transition: fill 0.3s ease;
 }
 
-.like-icon.is-liked .core{
+.like-icon.is-liked.core{
   fill: red;
   transition: fill 0.3s ease;
 }
 
-.like-icon.is-liked .main-body{
+.like-icon.is-liked.main-body{
   fill: red;
   transition: fill 0.3s ease;
   transition-delay: 0.05s;
 }
 
-.like-icon.is-liked .contour{
+.like-icon.is-liked.contour{
   fill: var(--heartContourColorActive);
   transition: fill 0.3s ease;
   transition-delay: 0.06s;
 }
 
-.like-icon:not(.is-liked) .contour{
+.like-icon:not(.is-liked).contour{
   fill: var(--heartContourMainBodyCoreColor);
   transition: fill 0.1s ease;
 }

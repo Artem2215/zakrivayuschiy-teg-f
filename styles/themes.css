@@ -18,28 +18,28 @@
   --buttonsFontSize: 14px;
   --subtitleWieght: 700;
   --textWeight: 400;
-
+  --textStrokeColor: #fff;
   --labelTextShadow: 
-    1px 1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    -1px -1px 0 #fff;
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000;
 
   --mainTextColor: #000;
   --headerBackgrColor: #fff;
   --borderColor: #000;
   --textBackgrColor: #fff;
-  --buttonBackgrColor: #fff;
+  --buttonBackgrColor: transparent;
   --boxShadowColor: #000;
   --buttonColor: #fff;
   --floppyColor: #fff;
   --buttonBefore: #000;
 
   --heartContourColor: #000;
-  --heartContourMainBodyCoreColor: #000;
-  --heartMainBodyAndCoreColorHover: #000;
-  --heartContourColorActive: red;
   --heartMainBodyAndSparksColor: red;
+  --heartMainBodyAndCoreColorHover: #000;
+  --heartActiveColor: red;
+  --heartContourColorActive: red;
 }
 
 @media (prefers-color-scheme: light) {
@@ -58,35 +58,37 @@
   
     --buttonsFontSize: 14px;
     --buttonsLineHeight: 12.6px;
+    --textStrokeColor: #fff;
     --labelTextShadow: 
-      1px 1px 0 #fff,
-      1px -1px 0 #fff,
-      -1px 1px 0 #fff,
-      -1px -1px 0 #fff;
+      1px 1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      -1px -1px 0 #000;
   
-    --mainTextColor: #000;
-    --headerBackgrColor: #fff;
-    --borderColor: #000;
-    --textBackgrColor: #fff;
-    --boxShadowColor: #000;
-    --buttonColor: #fff;
-    --floppyColor: #fff;
-    --buttonBefore: #000;
+      --mainTextColor: #000;
+      --headerBackgrColor: #fff;
+      --borderColor: #000;
+      --textBackgrColor: #fff;
+      --buttonBackgrColor: transparent;
+      --boxShadowColor: #000;
+      --buttonColor: #fff;
+      --floppyColor: #fff;
+      --buttonBefore: #000;
   
     --heartContourColor: #000;
-    --heartContourMainBodyCoreColor: #000;
-    --heartMainBodyAndCoreColorHover: #000;
-    --heartContourColorActive: red;
     --heartMainBodyAndSparksColor: red;
+    --heartMainBodyAndCoreColorHover: #000;
+    --heartActiveColor: red;
+    --heartContourColorActive: red;
   }
 }
 
 :root.theme-dark {
   --pageBackgrColor: #000;
   --pageBackgrGradient: 
-    repeating-linear-gradient(90deg, #004306 0 2px, rgb(0 0 0 / 0) 2px 4px), 
-    repeating-linear-gradient(180deg, #004306 0 2px, rgb(0 0 0 / 0) 2px 4px), 
-    linear-gradient(180deg, #007F0C 0%, #007F0C 0.01%, #1a1a1a 100%);
+    repeating-linear-gradient(90deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px), 
+    repeating-linear-gradient(180deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px), 
+    linear-gradient(180deg, #000 0%, #007F0C 0.01%, #004306 100%);
 
   --mainFont: 'Inter-Variable';
   --cubicFont: 'Press Start 2P';
@@ -94,18 +96,18 @@
   --buttonsFontSize: 14px;
   --subtitleWieght: 785;
   --textWeight: 465;
-
+  --textStrokeColor: #000;
   --labelTextShadow: 
-    1px 1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    -1px -1px 0 #fff;
+    1px 1px 0 #00CC14,
+    1px -1px 0 #00CC14,
+    -1px 1px 0 #00CC14,
+    -1px -1px 0 #00CC14;
   
   --mainTextColor: #00cc14;
   --headerBackgrColor: #000;
   --borderColor: #00cc14;
   --textBackgrColor: #000;
-  --buttonBackgrColor: #000;
+  --buttonBackgrColor: transparent;
   --boxShadowColor: #00cc14;
   --buttonColor: #00cc14;
   --floppyColor: #00cc14;
@@ -113,19 +115,19 @@
   --contourColor: #00cc14;
 
   --heartContourColor: #00cc14;
-  --heartContourMainBodyCoreColor: #00cc14;
-  --heartMainBodyAndCoreColorHover: #00cc14;
-  --heartContourColorActive: red;
   --heartMainBodyAndSparksColor: red;
+  --heartMainBodyAndCoreColorHover: #00cc14;
+  --heartActiveColor: red;
+  --heartContourColorActive: red;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --pageBackgrColor: #000;
-    --pageBackgrGradient: 
-      repeating-linear-gradient(90deg, #004306 0 2px, rgb(0 0 0 / 0) 2px 4px), 
-      repeating-linear-gradient(180deg, #004306 0 2px, rgb(0 0 0 / 0) 2px 4px), 
-      linear-gradient(180deg, #007F0C 0%, #007F0C 0.01%, #1a1a1a 100%);
+    --pageBackgrGradient:
+      repeating-linear-gradient(90deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px), 
+      repeating-linear-gradient(180deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px), 
+      linear-gradient(180deg, #000 0%, #007F0C 0.01%, #004306 100%);
   
     --mainFont: 'Inter-Variable';
     --cubicFont: 'Press Start 2P';
@@ -135,26 +137,28 @@
   
     --buttonsFontSize: 14px;
     --buttonsLineHeight: 12.6px;
+    --textStrokeColor: #000;
     --labelTextShadow: 
-      1px 1px 0 #fff,
-      1px -1px 0 #fff,
-      -1px 1px 0 #fff,
-      -1px -1px 0 #fff;
+      1px 1px 0 #00CC14,
+      1px -1px 0 #00CC14,
+      -1px 1px 0 #00CC14,
+      -1px -1px 0 #00CC14;
     
-    --mainTextColor: #00cc14;
-    --headerBackgrColor: #000;
-    --borderColor: #00cc14;
-    --textBackgrColor: #000;
-    --boxShadowColor: #00cc14;
-    --buttonColor: #00cc14;
-    --floppyColor: #00cc14;
-    --buttonBefore: #00cc14;
-    --contourColor: #00cc14;
+      --mainTextColor: #00cc14;
+      --headerBackgrColor: #000;
+      --borderColor: #00cc14;
+      --textBackgrColor: #000;
+      --buttonBackgrColor: transparent;
+      --boxShadowColor: #00cc14;
+      --buttonColor: #00cc14;
+      --floppyColor: #00cc14;
+      --buttonBefore: #00cc14;
+      --contourColor: #00cc14;
   
     --heartContourColor: #00cc14;
-    --heartContourMainBodyCoreColor: #00cc14;
-    --heartMainBodyAndCoreColorHover: #00cc14;
-    --heartContourColorActive: red;
     --heartMainBodyAndSparksColor: red;
-}
+    --heartMainBodyAndCoreColorHover: #00cc14;
+    --heartActiveColor: red;
+    --heartContourColorActive: red;
+  }
 }

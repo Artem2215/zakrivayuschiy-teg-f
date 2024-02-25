@@ -14,10 +14,10 @@
   --textWeight: 400;
 
   --labelTextShadow: 
-    1px 1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    -1px -1px 0 #fff;
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000;
 
   --mainTextColor: #000;
   --headerBackgrColor: #fff;
@@ -30,8 +30,8 @@
   --buttonBefore: #000;
 
   --heartContourColor: #000;
-  --heartContourMainBodyCoreColor: #000;
-  --heartMainBodyAndCoreColorHover: #000;
-  --heartContourColorActive: red;
   --heartMainBodyAndSparksColor: red;
+  --heartMainBodyAndCoreColorHover: #000;
+  --heartActiveColor: red;
+  --heartContourColorActive: red;
 }

@@ -46,65 +46,47 @@
 
 /* Анимации сердца */
 
+.like-icon .core {
+  transition: fill 0.3s 0.03s linear;
+}
+
 .like-icon:hover .core {
   transition: fill 0.3s linear;
   fill: var(--heartMainBodyAndCoreColorHover);
 }
 
-.like-icon:not(:hover) .core {
-  transition-delay: 0.03s;
-}
-
-.like-icon:hover .main-body {
-  transition: fill 0.3s linear;
-  fill: var(--heartMainBodyAndCoreColorHover);
-  transition-delay: 0.05s;
-}
-
-.like-icon:not(:hover) .main-body {
-  transition-delay: 0s;
-}
-
 .like-icon:active .core {
-  transition: fill 0.3s linear;
   fill: var(--heartActiveColor);
-}
-
-.like-icon:not(:active) .core {
-  transition-delay: 0.03s;
-}
-
-.like-icon:active .main-body {
-  transition: fill 0.3s linear;
-  fill: var(--heartActiveColor);
-  transition-delay: 0.05s;
-}
-
-.like-icon:not(:active) .main-body {
-  transition-delay: 0s;
 }
 
 .like-icon.is-liked .core {
   fill: red;
+}
+
+.like-icon .main-body {
   transition: fill 0.3s linear;
+}
+
+.like-icon:hover .main-body {
+  transition: fill 0.3s 0.05s linear;
+  fill: var(--heartMainBodyAndCoreColorHover);
+}
+
+.like-icon:active .main-body {
+  fill: var(--heartActiveColor);
 }
 
 .like-icon.is-liked .main-body {
   fill: red;
-  transition: fill 0.3s linear;
-  transition-delay: 0.05s;
+}
+
+.like-icon .contour {
+  transition: fill 0.3s 0.06s linear;
 }
 
 .like-icon.is-liked .contour {
   fill: var(--heartContourColorActive);
-  transition: fill 0.3s linear;
-  transition-delay: 0.06s;
-}
-
-.like-icon:not(.is-liked) .contour {
-  fill: var(--heartContourColor);
-  transition: fill 0.1s linear;
-  transition-delay: 0s;
+  transition-delay: 0.1s;
 }
 
 .like-icon.is-liked .heart {
